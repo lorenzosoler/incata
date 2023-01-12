@@ -1,3 +1,15 @@
+let buttons = document.getElementsByClassName('nav-link');
+buttons.forEach((button) => {
+  button.addEventListener('click', (e) => {
+    e.preventDefault();
+    let target = e.currentTarget.getAttribute('href');
+    
+    document.querySelector(target).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});
+
 (function ($) {
     "use strict";
 
