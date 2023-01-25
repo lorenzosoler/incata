@@ -4,8 +4,17 @@
     --secondary: #403F3F;
     --light: #F6FFF2;
     --dark: #263A4F;
-}
 
+
+}
+.container-max-widths {
+  sm: 540px;
+  md: 720px;
+  lg: 960px;
+  xl: 1140px;
+  xxl: 1320px
+};
+ 
 .btn {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1px;
@@ -291,4 +300,10 @@
     .bg-footer {
         margin-top: 90px !important;
     }
+}
+
+
+.incata4{
+    max-width: 100%;
+    max-height: 100%;
 }
