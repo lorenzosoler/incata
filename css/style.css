@@ -69,6 +69,10 @@ body, html {
     transition: .5s;
 }
 
+.sticky-top {
+    position: fixed !important;
+    width: 100% !important;
+}
 .sticky-top.navbar-dark .navbar-nav .nav-link {
     padding: 20px 15px;
 }

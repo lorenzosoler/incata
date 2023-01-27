@@ -68,11 +68,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav mx-auto py-0">
-                <a href="index.html" class="nav-item nav-link">Home</a>
-                <a href="#about" class="nav-item nav-link">Nosotros<a>
-                <a href="#service" class="nav-item nav-link">Servicios</a>
-                <a href="#productos" class="nav-item nav-link">Productos</a>
-                <a href="#equipo" class="nav-item nav-link">Equipo</a>
+                <a data-bs-toggle="collapse" data-bs-target="#navbarCollapse" href="#home" class="nav-item nav-link">Home</a>
+                <a data-bs-toggle="collapse" data-bs-target="#navbarCollapse" href="#about" class="nav-item nav-link">Nosotros<a>
+                <a data-bs-toggle="collapse" data-bs-target="#navbarCollapse" href="#service" class="nav-item nav-link">Servicios</a>
+                <a data-bs-toggle="collapse" data-bs-target="#navbarCollapse" href="#productos" class="nav-item nav-link">Productos</a>
+                <a data-bs-toggle="collapse" data-bs-target="#navbarCollapse" href="#equipo" class="nav-item nav-link">Equipo</a>
                 <!-- <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu m-0">
@@ -83,14 +83,14 @@
                         <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                     </div>
                 </div> -->
-                <a href="#contact" class="nav-item nav-link">Contacto</a>
+                <a data-bs-toggle="collapse" data-bs-target="#navbarCollapse" href="#contact" class="nav-item nav-link">Contacto</a>
             </div>
         </div>
     </nav>
     <!-- Navbar End -->
 
     <!-- Carousel Start -->
-    <div class="container-fluid p-0">
+    <div id="home" class="container-fluid p-0">
         <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -99,8 +99,8 @@
                         <div class="text-start p-5" style="max-width: 900px;">
                             <h3 class="text-primary">Sinergizando los proyectos del fututro</h3>
                             <h1 class="display-1 text-secondary mb-md-4">Incata Consultores</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3">Saber Más</a>
-                            <a href="" class="btn btn-secondary py-md-3 px-md-5">Contacto</a>
+                            <a href="#about" class="btn btn-primary py-md-3 px-md-5 me-3">Saber Más</a>
+                            <a href="#contact" class="btn btn-secondary py-md-3 px-md-5">Contacto</a>
                         </div>
                     </div>
                 </div>
@@ -321,98 +321,6 @@
     <!-- Features Start -->
 
 
-    <!-- Products Start 
-    <div id="productos" class="container-fluid py-5">
-        <div class="container">
-          
-            <div class="owl-carousel product-carousel px-5">
-                <div class="pb-5">
-                    <div class="product-item position-relative bg-white d-flex flex-column text-center">
-                        <img class="img-fluid mb-4" src="img/product-1.png" alt="">
-                        <h6 class="mb-3">Organic Vegetable</h6>
-                        <h5 class="text-primary mb-0">$19.00</h5>
-                        <div class="btn-action d-flex justify-content-center">
-                            <a class="btn bg-primary py-2 px-3" href=""><i class="bi bi-cart text-white"></i></a>
-                            <a class="btn bg-secondary py-2 px-3" href=""><i class="bi bi-eye text-white"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="pb-5">
-                    <div class="product-item position-relative bg-white d-flex flex-column text-center">
-                        <img class="img-fluid mb-4" src="img/product-2.png" alt="">
-                        <h6 class="mb-3">Organic Vegetable</h6>
-                        <h5 class="text-primary mb-0">$19.00</h5>
-                        <div class="btn-action d-flex justify-content-center">
-                            <a class="btn bg-primary py-2 px-3" href=""><i class="bi bi-cart text-white"></i></a>
-                            <a class="btn bg-secondary py-2 px-3" href=""><i class="bi bi-eye text-white"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="pb-5">
-                    <div class="product-item position-relative bg-white d-flex flex-column text-center">
-                        <img class="img-fluid mb-4" src="img/product-1.png" alt="">
-                        <h6 class="mb-3">Organic Vegetable</h6>
-                        <h5 class="text-primary mb-0">$19.00</h5>
-                        <div class="btn-action d-flex justify-content-center">
-                            <a class="btn bg-primary py-2 px-3" href=""><i class="bi bi-cart text-white"></i></a>
-                            <a class="btn bg-secondary py-2 px-3" href=""><i class="bi bi-eye text-white"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="pb-5">
-                    <div class="product-item position-relative bg-white d-flex flex-column text-center">
-                        <img class="img-fluid mb-4" src="img/product-2.png" alt="">
-                        <h6 class="mb-3">Organic Vegetable</h6>
-                        <h5 class="text-primary mb-0">$19.00</h5>
-                        <div class="btn-action d-flex justify-content-center">
-                            <a class="btn bg-primary py-2 px-3" href=""><i class="bi bi-cart text-white"></i></a>
-                            <a class="btn bg-secondary py-2 px-3" href=""><i class="bi bi-eye text-white"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="pb-2 m-0">
-                    <div class="product-item position-relative bg-white d-flex flex-column text-center">
-                        <img class="img-fluid mb-4" src="img/product-1.png" alt="">
-                        <h6 class="mb-3">Organic Vegetable</h6>
-                        <h5 class="text-primary mb-0">$19.00</h5>
-                        <div class="btn-action d-flex justify-content-center">
-                            <a class="btn bg-primary py-2 px-3" href=""><i class="bi bi-cart text-white"></i></a>
-                            <a class="btn bg-secondary py-2 px-3" href=""><i class="bi bi-eye text-white"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Products End -->
-
-
-    <!-- Testimonial Start 
-    <div class="container-fluid bg-testimonial py-5 my-5">
-        <div class="container py-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-7">
-                    <div class="owl-carousel testimonial-carousel p-5">
-                        <div class="testimonial-item text-center text-white">
-                            <img class="img-fluid mx-auto p-2 border border-5 border-secondary rounded-circle mb-4" src="img/testimonial-2.jpg" alt="">
-                            <p class="fs-5">Dolores sed duo clita justo dolor et stet lorem kasd dolore lorem ipsum. At lorem lorem magna ut et, nonumy labore diam erat. Erat dolor rebum sit ipsum.</p>
-                            <hr class="mx-auto w-25">
-                            <h4 class="text-white mb-0">Client Name</h4>
-                        </div>
-                        <div class="testimonial-item text-center text-white">
-                            <img class="img-fluid mx-auto p-2 border border-5 border-secondary rounded-circle mb-4" src="img/testimonial-2.jpg" alt="">
-                            <p class="fs-5">Dolores sed duo clita justo dolor et stet lorem kasd dolore lorem ipsum. At lorem lorem magna ut et, nonumy labore diam erat. Erat dolor rebum sit ipsum.</p>
-                            <hr class="mx-auto w-25">
-                            <h4 class="text-white mb-0">Client Name</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
-
-
     <!-- Team Start -->
     <div id="equipo" class="container-fluid py-2 ">
         <div class="container">
@@ -556,7 +464,7 @@
     
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-footer bg-primary text-white mt-5">
+    <div id="contact" class="container-fluid bg-footer bg-primary text-white mt-5">
         <div class="container">
             <div class="row gx-5">
                 <div class="col-lg-8 col-md-6">
@@ -641,7 +549,7 @@
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/smoothscroll/smoothscroll.min.min.js"></script>
+    <script src="lib/smoothscroll/smoothscroll.min.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>

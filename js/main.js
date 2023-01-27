@@ -1,16 +1,3 @@
-let buttons = document.getElementsByClassName('nav-link');
-for (let i = 0; i < buttons.length; i++) {
-    const button = buttons[i];
-    button.addEventListener('click', (e) => {
-        e.preventDefault();
-        let target = e.currentTarget.getAttribute('href');
-        
-        document.querySelector(target).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-}
-
 (function ($) {
     "use strict";
 
@@ -38,6 +25,18 @@ for (let i = 0; i < buttons.length; i++) {
         }
         toggleNavbarMethod();
         $(window).resize(toggleNavbarMethod);
+        let buttons = document.getElementsByClassName('nav-link');
+        for (let i = 0; i < buttons.length; i++) {
+            const button = buttons[i];
+            button.addEventListener('click', (e) => {
+                e.preventDefault();
+                let target = e.currentTarget.getAttribute('href');
+                
+                document.querySelector(target).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        }
     });
     
     
