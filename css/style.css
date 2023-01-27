@@ -8,6 +8,10 @@
 
 }
 
+body, html {
+    overflow-x: hidden !important;
+}
+
 #about, #service {
     padding: 6rem 0;
 }
